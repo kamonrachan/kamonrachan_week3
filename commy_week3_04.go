@@ -12,7 +12,7 @@ func main() {
 	var age3 int
 
 	fmt.Scan(&age1, &age2, &age3)
-	fmt.Fprintf(os.Stdout, "%d - %d - %d", age1, age2, age3)
-	fmt.Fprintf(os.Stdout, "%d + %d + %d", age1, age2, age3)
-	fmt.Fprintf(os.Stdout, "%d - %d + %d", age1, age2, age3)
+	fmt.Fprintf(os.Stdout, "%d - %d - %d", age1, age2, age3, "\n")
+	fmt.Fprintf(os.Stdout, "%d + %d + %d", age1, age2, age3, "\n")
+	fmt.Fprintf(os.Stdout, "%d - %d + %d", age1, age2, age3, "\n")
 }
