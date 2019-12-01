@@ -7,4 +7,5 @@ func main() {
 	var input float64
 	fmt.Scanf("%f", &input)
 	output:=input*10
+	fmt.Println(output)
 }
